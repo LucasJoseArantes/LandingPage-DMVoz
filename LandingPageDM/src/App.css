@@ -28,28 +28,37 @@
     padding: 20px;
 }
 
-.lamp-image{
+.image-effect{
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.5s ease; 
+
+}
+
+.image-effect:hover{
+    cursor: pointer;
+    transform: scale(1.3)
+}
+
+.image-effect:not(:hover) {
+    transform: scale(1); 
+}
+
+.lamp-image{
     width: 50px;
     height: 53.42px;
     top: 40px;
     left: 927px;
     background-image: url('../public/lamp.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
-
 .sound-image{
-    position: relative;
     width: 200px;
     height: 90px;
     top: -105px;
     left: 490px;
     background-image: url('../public/sound.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .MainTitle h1{
