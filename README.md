@@ -14,7 +14,6 @@ A estrutura do projeto foi organizada da seguinte forma:
  ┃ ┣ 📂components
  ┃ ┣ 📂styles
  ┃ ┣ 📜app.jsx
- ┃ ┣ 📜index.css
  ┃ ┗ 📜main.jsx
  ┣ 📜README.md
  ┣ 📜package.json
@@ -28,7 +27,6 @@ A estrutura do projeto foi organizada da seguinte forma:
   - **`components/`**: Contém os componentes React reutilizáveis.
   - **`styles/`**: Contém arquivos de estilo (CSS).
   - **`app.jsx`**: Componente principal da aplicação.
-  - **`index.css`**: Estilos globais da aplicação.
   - **`main.jsx`**: Ponto de entrada para o React.
 
 - **`package.json`**: Define dependências e scripts do projeto.
