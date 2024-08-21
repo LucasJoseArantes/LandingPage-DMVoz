@@ -4,7 +4,7 @@ import '../styles/header.css';
 const Header = () => {
     return (
         <header>
-            <div className='logo'>
+            <div>
                 <img src='src\assets\images\logos\colorHeader.png' alt='DM Voz Produções' />
             </div>
             <nav className='navbar'>

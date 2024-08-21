@@ -10,9 +10,7 @@ function App() {
     return (
         <div className='mainContainer'>
             <div className='image-container'>
-                <header>
-                    <Header />
-                </header>
+                <Header />
                 <SectionOne />    
             </div>
             <SectionFAQ />
