@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/sectionFAQ.css';
+import TitleSubtitle from './titleSubtitle';
 
 const SectionFAQ = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -33,8 +34,7 @@ const SectionFAQ = () => {
 
     return (
         <section className="faqSection">
-            <h2>Perguntas Frequentes</h2>
-            <p className='sectionSubtitle'>Respostas para as dúvidas mais comuns sobre nossos serviços</p>
+            <TitleSubtitle title="Perguntas Frequentes" subtitle="Respostas para as dúvidas mais comuns sobre nossos serviços"/>
             <div className="faqList">
                 {faqs.map((faq, index) => (
                     <div key={index} className="faqItem">
