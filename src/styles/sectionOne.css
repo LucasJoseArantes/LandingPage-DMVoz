@@ -1,14 +1,11 @@
 .image-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 900px;
     width: 1400px;
     background-image: url('../assets/images/sectionOne/section1bgd.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px;
 }
 
 .image-effect {
@@ -44,37 +41,48 @@
     background-image: url('../assets/images/sectionOne/sound.png');
 }
 
+
+.sectionOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 1400px;
+    align-self: end;
+}
+
+.mainTitle {
+    align-self: center;
+    justify-self: center;
+    height: 400px;
+}
+
 .mainTitle h1 {
     font-size: 96px;;
     width: 1052px;
-    padding: 10px;
     font-weight: 350;
 }
 
-.mainTitle p {
-    position: relative;
+
+.sectionOne p {
     font-size: 20px;
-    width: fit-content;
-    bottom: -140px;
-    left: 50%;
-    transform: translateX(-50%);
-}
+    margin-top: auto;
+    margin-bottom: 50px;
+} 
 
 .sectionImage {
     color: white;
 }
 
-.button {
-    position: relative;
+.button  {
     padding: 12px;
     font-size: 26px;
     border-radius: 10px ;
     font-weight: 700;
-    left: 50%;
-    bottom: -70px;
-    transform: translateX(-50%);
     border: none;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: auto;
 }
 
 .button:hover {

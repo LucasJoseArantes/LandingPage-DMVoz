@@ -11,12 +11,12 @@ function App() {
                 <header>
                     <Header />
                 </header>
-                <section className='sectionOne sectionImage'>
-                    <SectionOne />
-                </section>
+                <SectionOne/>    
             </div>
 
-            <Footer />
+            <Footer>
+
+            </Footer>
         </div>
     );
 }
