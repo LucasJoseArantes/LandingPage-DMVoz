@@ -11,4 +11,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    border: 2px solid green;
+
+}
+
+
+.sectionOne, .faqSection, .sectionContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 1400px;
+    align-self: end;
+    align-self: center;
+}
+
+section h2{
+    font-size: 72px;
+    font-weight: 700;
+    margin: 40px;
+}
+
+.sectionSubtitle{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
 }

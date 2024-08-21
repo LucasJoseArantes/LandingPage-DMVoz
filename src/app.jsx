@@ -13,10 +13,11 @@ function App() {
                 <header>
                     <Header />
                 </header>
-                <SectionOne/>    
+                <SectionOne />    
             </div>
             <SectionFAQ />
             <SectionContact />
+            <Footer />
         </div>
     );
 }

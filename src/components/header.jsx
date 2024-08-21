@@ -1,14 +1,21 @@
 import React from 'react';
+import '../styles/header.css';
 
 const Header = () => {
     return (
-        <div>
-            <nav>
+        <header>
+            <div className='logo'>
+                <img src='/assets/images/logo.png' alt='DM Voz Produções' />
+            </div>
+            <nav className='navbar'>
                 <ul>
-                    
+                    <li><a href='#about'>Sobre nós</a></li>
+                    <li><a href='#partners'>Nossos Parceiros</a></li>
+                    <li><a href='#faq'>FAQ</a></li>
+                    <li><a href='#contact'>Fale Conosco</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
     );
 };
 
