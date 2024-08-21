@@ -1,0 +1,83 @@
+.sectionContact {
+    background: url('/src/assets/images/sectionOne/contactBdg.png') no-repeat center center;
+    background-size: cover;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+    color: #999;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+.contactForm, .contactTitle, .contactContent{
+    margin: auto;
+    margin-right: 50px;
+    padding: 10px;
+    width: 600px;
+    align-self: end;
+    text-align: left;
+
+}
+
+.contactForm{
+    margin: auto;
+    margin-left: 50px;
+    width: 450px;
+}
+
+.contactTitle h2{
+    font-size: 72px;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 15px;
+    
+}
+
+.contactTitle p{
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.messageForm{
+    min-width: 300px;
+    max-width: 480px;
+    max-height: 240px;
+    min-height: 100px;
+}
