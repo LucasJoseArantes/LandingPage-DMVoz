@@ -4,8 +4,8 @@ import '../styles/sectionCustomer.css';
 
 const Customer = () => {
     return (
-        <section className='sectionCustomer'>
-            <TitleSubtitle title="Especialidades" subtitle="Confira algum de nossos trabalhos mais recentes"/>
+        <section className='sectionImage sectionCustomer'>
+            <TitleSubtitle title="Depoimentos" subtitle="Saiba quem são nossos parceiros, e o que tem a dizer sobre nós"/>
         </section>
     );
 };

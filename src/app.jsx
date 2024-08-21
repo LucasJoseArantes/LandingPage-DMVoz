@@ -6,6 +6,7 @@ import SectionOne from './components/sectionOne';
 import SectionFAQ from './components/sectionFAQ';
 import SectionContact from './components/sectionContact';
 import SectionCustomer from './components/sectionCustomer';
+import SectionAudio from './components/sectionAudio';
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
             </div>
             <div className='image-container imageCostumer'>
                 <SectionCustomer />
+            </div>
+            <div className='image-container imageAudio'>
+                <SectionAudio />
             </div>
             <SectionFAQ />
                 <SectionContact />
