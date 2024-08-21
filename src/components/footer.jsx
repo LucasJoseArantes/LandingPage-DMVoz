@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div className="footerContent">
         <div>
-            <img className="logo" src="src\assets\images\logos\whiteFooter.png" alt="Logo DMVoz" />
+            <img className="logo" src="https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/images/logos/whiteFooter.png?raw=true" alt="Logo DMVoz" />
             <hr /> 
             <p>Copyright © 2000 - 2024 DMVoz Produções. Todos os direitos reservados</p>
         </div>

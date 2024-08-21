@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <div>
-                <img src='src\assets\images\logos\colorHeader.png' alt='DM Voz Produções' />
+                <img src='https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/images/logos/colorHeader.png?raw=true' alt='DM Voz Produções' />
             </div>
             <nav className='navbar'>
                 <ul>
