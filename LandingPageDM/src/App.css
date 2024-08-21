@@ -4,28 +4,23 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
 }
 
 .MainContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100%;    
-    padding: 20px;
 }
 
 .image-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 900px;
     width: 1400px;
     background-image: url('../public/section1bgd.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px;
 }
 
 .image-effect{
@@ -53,6 +48,7 @@
     left: 927px;
     background-image: url('../public/lamp.png');
 }
+
 .sound-image{
     width: 200px;
     height: 90px;
@@ -61,38 +57,49 @@
     background-image: url('../public/sound.png');
 }
 
-.MainTitle h1{
-    font-size: 96px;;
-    width: 1052px;
-    padding: 10px;
-    font-weight: 350;
+
+.SectionOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    width: 1400px;
+    align-self: end;
+
 }
 
-
-.MainTitle p{
-    position: relative;
+.SectionOne p{
     font-size: 20px;
-    width: fit-content;
-    bottom: -140px;
-    left: 50%;
-    transform: translateX(-50%);
-}
+    margin-top: auto;
+    margin-bottom: 50px;
+} 
 
 .SectionImage{
     color: white;
 }
 
+
+.MainTitle{
+    align-self: center;
+    justify-self: center;
+    height: 400px;
+}
+
+.MainTitle h1{
+    font-size: 96px;;
+    width: 1052px;
+    font-weight: 350;
+}
+
 .Button{
-    position: relative;
     padding: 12px;
     font-size: 26px;
     border-radius: 10px ;
     font-weight: 700;
-    left: 50%;
-    bottom: -70px;
-    transform: translateX(-50%);
     border: none;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: auto;
 }
 
 .Button:hover{

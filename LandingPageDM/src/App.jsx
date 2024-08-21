@@ -11,9 +11,7 @@ function App() {
                 <header>
                     <Header />
                 </header>
-                <section className='SectionOne, SectionImage'>
-                    <SectionOne />
-                </section>
+                <SectionOne className='SectionOne'/>    
             </div>
 
             <Footer>
