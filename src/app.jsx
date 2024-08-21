@@ -4,6 +4,7 @@ import Footer from './components/footer';
 import Header from './components/header';
 import SectionOne from './components/sectionOne';
 import SectionFAQ from './components/sectionFAQ';
+import SectionContact from './components/sectionContact';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <SectionOne/>    
             </div>
             <SectionFAQ />
+            <SectionContact />
         </div>
     );
 }
