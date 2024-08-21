@@ -16,7 +16,7 @@
 }
 
 
-.sectionOne, .faqSection, .sectionContact {
+.sectionOne, .faqSection, .sectionContact, .sectionCustomer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +25,7 @@
     width: 1400px;
     align-self: end;
     align-self: center;
+    text-align: center;
 }
 
 section h2{
@@ -38,4 +39,16 @@ section h2{
     font-size: 32px;
     line-height: 120%;
     text-align: center;
+}
+
+.image-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

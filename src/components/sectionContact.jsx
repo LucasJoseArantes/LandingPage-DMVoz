@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/sectionContact.css'; // Certifique-se de que este caminho corresponde ao seu projeto
+import '../styles/sectionContact.css';
 
 const SectionContact = () => {
     return (

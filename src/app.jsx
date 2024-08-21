@@ -5,16 +5,21 @@ import Header from './components/header';
 import SectionOne from './components/sectionOne';
 import SectionFAQ from './components/sectionFAQ';
 import SectionContact from './components/sectionContact';
+import SectionCustomer from './components/sectionCustomer';
+
 
 function App() {
     return (
         <div className='mainContainer'>
-            <div className='image-container'>
+            <div className='image-container imageOne'>
                 <Header />
                 <SectionOne />    
             </div>
+            <div className='image-container imageCostumer'>
+                <SectionCustomer />
+            </div>
             <SectionFAQ />
-            <SectionContact />
+                <SectionContact />
             <Footer />
         </div>
     );
