@@ -65,6 +65,10 @@ button[type="submit"]:hover {
     width: 450px;
 }
 
+.contactTitle{
+    color: #000000;
+}	
+
 .contactTitle h2{
     font-size: 72px;
     font-weight: 700;
@@ -78,6 +82,7 @@ button[type="submit"]:hover {
     font-weight: 400;
     text-align: left;
     margin-bottom: 15px;
+   
 }
 
 .messageForm{

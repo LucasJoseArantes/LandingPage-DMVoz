@@ -7,7 +7,7 @@ const SectionAudio = () => {
     return (
         <section className='sectionImage sectionAudio'>
             <TitleSubtitle title="Especialidades" subtitle="Confira algum de nossos trabalhos mais recentes" />
-            <Button text="Estou Interessado" />
+            <Button text="Estou Interessado" nextSection=".faqSection"/>
         </section>
     );
 };

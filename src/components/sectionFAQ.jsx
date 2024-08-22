@@ -21,7 +21,16 @@ const SectionFAQ = () => {
         {
             question: 'Qual é o prazo de entrega para os serviços de locução?',
             answer: 'O prazo de entrega varia conforme o projeto e o serviço contratado. Entre em contato para uma estimativa mais precisa.',
-        }
+        },
+        {
+            question: 'Qual é o prazo de entrega para os serviços de locução?',
+            answer: 'O prazo de entrega varia conforme o projeto e o serviço contratado. Entre em contato para uma estimativa mais precisa.',
+        },
+        {
+            question: 'Qual é o prazo de entrega para os serviços de locução?',
+            answer: 'O prazo de entrega varia conforme o projeto e o serviço contratado. Entre em contato para uma estimativa mais precisa.',
+        },
+       
     ];
 
     const toggleAnswer = (index) => {
