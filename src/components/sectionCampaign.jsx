@@ -16,7 +16,7 @@ const SectionCampaign = () => {
                 <h4>Heading 2</h4>
                 <p>Paragraph 2</p>
             </div>
-            <Button text="Estou Interessado"/>
+            <Button text="Estou Interessado" nextSection=".sectionCustomer"/>
         </section>
     );
 }
