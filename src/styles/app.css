@@ -16,7 +16,7 @@
 }
 
 
-.sectionOne, .faqSection, .sectionContact, .sectionCustomer {
+.sectionOne, .faqSection, .sectionContact, .sectionCustomer, .sectionAudio, .sectionUs, .sectionCampaign {
     display: flex;
     justify-content: center;
     align-items: center;

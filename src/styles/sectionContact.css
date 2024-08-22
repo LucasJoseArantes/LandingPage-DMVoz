@@ -1,4 +1,9 @@
-.sectionContact {
+/* .sectionContact {
+    background: url('/src/assets/images/sectionContact/contactBdg.png') no-repeat center center;
+    background-size: cover;
+} */
+
+.imageContact {
     background: url('/src/assets/images/sectionContact/contactBdg.png') no-repeat center center;
     background-size: cover;
 }
