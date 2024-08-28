@@ -19,13 +19,13 @@ function App() {
                 <Header />
                 <SectionOne />    
             </div>
-                <SectionCampaign />
-            <div className='image-container imageCostumer'>
-                <SectionCustomer />
-            </div>
                 <SectionUs />
             <div className='image-container imageAudio'>
                 <SectionAudio />
+            </div>
+                <SectionCampaign />
+            <div className='image-container imageCostumer'>
+                <SectionCustomer />
             </div>
                 <SectionFAQ />
             <div className='image-container imageContact'>
