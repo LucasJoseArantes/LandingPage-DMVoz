@@ -1,0 +1,38 @@
+[ 
+    {
+      "name": "Arroz Vasconcelos",
+      "testimonial":
+        "Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.",
+      "logo": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/490eec39759d19395a0029dca4b24840296e9602/src/assets/images/sectionCostumer/vasconcelos.png?raw=true"
+    },
+    {
+      "name": "Rádio Cultura FM",
+      "testimonial":
+        "Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.",
+      "logo": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/490eec39759d19395a0029dca4b24840296e9602/src/assets/images/sectionCostumer/cultura_fm.jpeg?raw=true"
+    },
+    {
+      "name": "Unicred",
+      "testimonial":
+        "Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.",
+      "logo": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/490eec39759d19395a0029dca4b24840296e9602/src/assets/images/sectionCostumer/unicred.png?raw=true"
+    },
+    {
+      "name": "Start Química",
+      "testimonial":
+        "Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.",
+      "logo": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/490eec39759d19395a0029dca4b24840296e9602/src/assets/images/sectionCostumer/start.png?raw=true"
+    },
+    {
+      "name": "Cliente restante 1",
+      "testimonial":
+        "Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.",
+      "logo": "https://picsum.photos/300/300"
+    },
+    {
+      "name": "Cliente restante 2",
+      "testimonial":
+        "Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.",
+      "logo": "https://picsum.photos/300/300/?blur"
+    }
+  ]

@@ -9,17 +9,11 @@
     text-align: center;
 }
 
-.mySwiper {
-    width: 100%;
-    margin-top: 60px;
-}
 
-.swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
+.mySwiper {
+    margin-top: 60px;
+    max-width: 950px;
+    
 }
 
 .testimonial-card {
@@ -27,12 +21,39 @@
     height: 350px;
     box-sizing: border-box;
     text-align: center;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px; /* Ajuste conforme necessário */
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative; /* Necessário para o posicionamento absoluto do logo */
+}
+
+.testimonial-text {
+    font-weight: 500;
+    width: 80%;
+    height: 250px;
+    font-size: 16px;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    font-style: italic;
+    color: #000000;
+    flex-grow: 1; /* Faz o texto crescer para ocupar o espaço disponível */
+}
+
+.testimonial-footer {
+    background: #252525; /* Fundo cinza escuro */
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    overflow: visible; /* Permite que o conteúdo saia do container */
+    padding-top: 40px; /* Ajustado para garantir que a imagem não sobreponha o testemunho */
 }
 
 .testimonial-quote {
@@ -43,26 +64,6 @@
     top: 10px;
     left: 10px;
     color: #000; /* Cor do texto da citação */
-}
-
-.testimonial-text {
-    font-size: 16px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 20px;
-    font-style: italic;
-    color: #333;
-    flex-grow: 1; /* Faz o texto crescer para ocupar o espaço disponível */
-}
-
-.testimonial-footer {
-    background: #252525;
-    padding: 10px;
-    position: relative;
-    overflow: visible;
-    padding-top: 40px;
-    border-radius: 9px;
-    margin-top: auto; /* Empurra o footer para o fim */
 }
 
 .testimonial-logo {
@@ -91,6 +92,7 @@
 
 .swiper-pagination-bullet-active {
     background-color: #000 !important;
+    
 }
 
 button {
@@ -107,28 +109,19 @@ button {
 button:hover {
     background-color: #333;
 }
-.swiper-button-next,
-.swiper-button-prev {
-    color: #000; /* Cor das setas */
-    width: 40px; /* Largura das setas */
-    height: 40px; /* Altura das setas */
-    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com opacidade */
-    border-radius: 50%; /* Tornar as setas circulares */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10; /* Garante que as setas fiquem acima do conteúdo */
+
+
+.mySwiper .swiper-button-next {
+    right: 0px; /* Aumenta a distância da borda direita */
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-    font-size: 20px; /* Tamanho dos ícones das setas */
+.mySwiper .swiper-button-prev {
+    left: 0px; /* Aumenta a distância da borda esquerda */
 }
 
-.swiper-button-next {
-    right: 10px; /* Distância da borda direita */
-}
-
-.swiper-button-prev {
-    left: 10px; /* Distância da borda esquerda */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    color: #000000; /* Cor das setas */
+    width: fit-content;
+    z-index: 10; /* Garante que as setas fiquem acima de outros elementos */
 }
