@@ -1,19 +1,14 @@
-.sectionCampaign {
-    border: 2px solid blue;
-}
 
 .sectionCampaign__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    border: 2px solid green;
-    padding: auto;
+    margin-bottom: 2rem;
 }
 
 .sectionCampaign__video {
     flex: 1;
-    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .sectionCampaign__video iframe {
@@ -35,7 +30,7 @@
 
 .sectionCampaign__text p {
     font-size: 2rem;
-    margin: 1rem 0;
+    margin: 1rem 3rem 1rem 0;
 }
 
 .sectionCampaign button {
@@ -44,7 +39,15 @@
 
 .swiper-button-next,
 .swiper-button-prev {
+    background: none;
+    border: none;
     color: black;
-    transform: translateY(-50%);
 }
 
+.swiper-button-next {
+    right: -2px;
+}
+
+.swiper-button-prev {
+    left: -2px;
+}
