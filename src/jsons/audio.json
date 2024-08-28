@@ -1,22 +1,42 @@
 [
     {
         "name": "Demo Principal",
-        "url": "demoPrincipal"
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoPrincipal.mp3?raw=true"
     },
     {
         "name": "Demo Demonstrativo de Política",
-        "url": "/path/to/demo-politica.mp3"
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoPolitica.mp3?raw=true"
     },
     {
         "name": "Demo Propaganda para rádio",
-        "url": "/path/to/demo-radio.mp3"
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoRadio.mp3?raw=true"
     },
     {
         "name": "Demo propagandas para televisão",
-        "url": "/path/to/demo-televisao.mp3"
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoTV.mp3?raw=true"
     },
     {
         "name": "Demo escutas telefônicas",
-        "url": "/path/to/demo-escutas.mp3"
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoTelefonica.mp3?raw=true"
+    },
+    {
+        "name": "Demo Principal",
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoPrincipal.mp3?raw=true"
+    },
+    {
+        "name": "Demo Demonstrativo de Política",
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoPolitica.mp3?raw=true"
+    },
+    {
+        "name": "Demo Propaganda para rádio",
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoRadio.mp3?raw=true"
+    },
+    {
+        "name": "Demo propagandas para televisão",
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoTV.mp3?raw=true"
+    },
+    {
+        "name": "Demo escutas telefônicas",
+        "url": "https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/audios/demoTelefonica.mp3?raw=true"
     }
 ]
