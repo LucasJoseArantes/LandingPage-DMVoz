@@ -22,10 +22,13 @@ function App() {
                 <SectionCampaign />
             <div className='image-container imageCostumer'>
                 <SectionCustomer />
+<<<<<<< Updated upstream
             </div>
                 <SectionUs />
             <div className='image-container imageAudio'>
                 <SectionAudio />
+=======
+>>>>>>> Stashed changes
             </div>
                 <SectionFAQ />
             <div className='image-container imageContact'>

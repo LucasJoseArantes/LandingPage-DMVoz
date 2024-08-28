@@ -61,6 +61,7 @@ const Customer = () => {
     return (
         <section className='sectionImage sectionCustomer'>
             <TitleSubtitle title="Depoimentos" subtitle="Saiba quem são nossos parceiros, e o que têm a dizer sobre nós" />
+            <div className='swiperContainer'>
             <Swiper
                 className="mySwiper"
                 spaceBetween={30}
@@ -75,6 +76,8 @@ const Customer = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
+            </div>
+           
             <Button text="Estou Interessado" />
         </section>
     );

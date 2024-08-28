@@ -10,21 +10,27 @@
 }
 
 .mySwiper {
-    width: 100%;
     margin-top: 60px;
+    width: 950px;
 }
 
-.swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
+.swiperContainer{
+    border: 2px solid red;
+    width: 90%;
 }
 
 .testimonial-card {
     background: #fff;
+<<<<<<< Updated upstream
     padding: 20px;
+=======
+    height: 350px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+>>>>>>> Stashed changes
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -36,11 +42,24 @@
 }
 
 .testimonial-text {
+    font-weight: 500;
+    width: 80%;
     font-size: 16px;
+<<<<<<< Updated upstream
     margin-bottom: 40px; /* Aumentado para criar mais espaço entre o testemunho e o container */
     font-style: italic;
     color: #333;
+=======
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    font-style: italic;
+    color: #000000;
+    border: 2px solid red;
+    flex-grow: 1; /* Faz o texto crescer para ocupar o espaço disponível */
+>>>>>>> Stashed changes
 }
+
 
 .testimonial-footer {
     background: #252525; /* Fundo cinza escuro */
@@ -77,6 +96,7 @@
 
 .swiper-pagination-bullet-active {
     background-color: #000 !important;
+    
 }
 
 button {
@@ -93,17 +113,14 @@ button {
 button:hover {
     background-color: #333;
 }
-.swiper-button-next,
-.swiper-button-prev {
-    color: #000; /* Cor das setas */
-    width: 40px; /* Largura das setas */
-    height: 40px; /* Altura das setas */
-    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com opacidade */
-    border-radius: 50%; /* Tornar as setas circulares */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    color: #000000; /* Cor das setas */
+    width: 20px; /* Largura das setas */
+    height: 20px; /* Altura das setas */
     z-index: 10; /* Garante que as setas fiquem acima do conteúdo */
+    border: 2px solid red;
+    
 }
 
 .swiper-button-next::after,
@@ -111,10 +128,10 @@ button:hover {
     font-size: 20px; /* Tamanho dos ícones das setas */
 }
 
-.swiper-button-next {
-    right: 10px; /* Distância da borda direita */
+.mySwiper  .swiper-button-next {
+    right: -10px; /* Distância da borda direita */
 }
 
-.swiper-button-prev {
+.mySwiper .swiper-button-prev {
     left: 10px; /* Distância da borda esquerda */
 }
