@@ -25,6 +25,10 @@ function App() {
             </div>
                 <SectionCampaign />
             <div className='image-container imageCostumer'>
+                <SectionAudio />
+            </div>
+                <SectionUs />
+            <div className='image-container imageAudio'>
                 <SectionCustomer />
             </div>
                 <SectionFAQ />

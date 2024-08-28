@@ -7,9 +7,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Button from './button';
 import vasconcelosLogo from '../assets/images/sectionCostumer/vasconcelos.png';
-import culturaFmlogo from '../assets/images/sectionCostumer/cultura_fm.png';
+import culturaFmlogo from '../assets/images/sectionCostumer/cultura_fm.jpeg';
 import startLogo from '../assets/images/sectionCostumer/start.png';
 import unicredLogo from '../assets/images/sectionCostumer/unicred.png';
+import quotesLogo from '../assets/images/sectionCostumer/double-quotes.png';
 import { Navigation } from 'swiper/modules';
 
 const testimonials = [
@@ -48,6 +49,7 @@ const testimonials = [
 const TestimonialCard = ({ name, testimonial, logo }) => {
     return (
         <div className="testimonial-card">
+            <img src={quotesLogo} alt="quotes" className="testimonial-quote" />
             <p className="testimonial-text">"{testimonial}"</p>
             <div className="testimonial-footer">
                 <img src={logo} alt={name} className="testimonial-logo" />
@@ -56,6 +58,7 @@ const TestimonialCard = ({ name, testimonial, logo }) => {
         </div>
     );
 };
+
 
 const Customer = () => {
     return (
