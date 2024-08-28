@@ -1,0 +1,34 @@
+.picturesContainer {
+    display: grid;
+    grid-template-areas:
+      "mainImage sideImages"
+      "bottomImages bottomImages";
+    gap: 10px;
+  }
+  
+  
+  .mainImage {
+    grid-area: mainImage;
+  }
+  
+  .sideImages {
+    grid-area: sideImages;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bottomImages {
+    grid-area: bottomImages;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .picturesContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; 
+  }
+  
