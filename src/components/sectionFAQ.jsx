@@ -1,43 +1,16 @@
 import React, { useState } from 'react';
 import '../styles/sectionFAQ.css';
 import TitleSubtitle from './titleSubtitle';
+import faqs from '../jsons/faqs.json';
 
 const SectionFAQ = () => {
     const [activeIndex, setActiveIndex] = useState(null);
 
-    const faqs = [
-        {
-            question: 'Vocês têm políticas de privacidade para proteger meus dados?',
-            answer: 'Sim, levamos a privacidade de nossos clientes muito a sério. Todas as informações fornecidas são mantidas em sigilo e usadas exclusivamente para a execução dos serviços contratados. Para mais detalhes, consulte nossa política de privacidade.',
-        },
-        {
-            question: 'Como posso contratar os serviços da produtora?',
-            answer: 'Você pode contratar nossos serviços entrando em contato diretamente pelo nosso site ou telefone. Estamos disponíveis para esclarecer dúvidas e fornecer todas as informações necessárias.',
-        },
-        {
-            question: 'Qual é o prazo de entrega para os serviços de locução?',
-            answer: 'O prazo de entrega varia conforme o projeto e o serviço contratado. Entre em contato para uma estimativa mais precisa.',
-        },
-        {
-            question: 'Qual é o prazo de entrega para os serviços de locução?',
-            answer: 'O prazo de entrega varia conforme o projeto e o serviço contratado. Entre em contato para uma estimativa mais precisa.',
-        },
-        {
-            question: 'Qual é o prazo de entrega para os serviços de locução?',
-            answer: 'O prazo de entrega varia conforme o projeto e o serviço contratado. Entre em contato para uma estimativa mais precisa.',
-        },
-        {
-            question: 'Qual é o prazo de entrega para os serviços de locução?',
-            answer: 'O prazo de entrega varia conforme o projeto e o serviço contratado. Entre em contato para uma estimativa mais precisa.',
-        },
-       
-    ];
-
     const toggleAnswer = (index) => {
         if (activeIndex === index) {
-            setActiveIndex(null); // Fecha a pergunta se estiver aberta
+            setActiveIndex(null);
         } else {
-            setActiveIndex(index); // Abre a pergunta clicada
+            setActiveIndex(index);
         }
     };
 
