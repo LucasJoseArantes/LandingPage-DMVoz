@@ -6,21 +6,7 @@ import 'swiper/css/pagination';
 import { Navigation } from 'swiper/modules';
 import Button from '../button';
 import CampaignSlide from './campaignSlide';
-
-const campaigns = [
-    {
-        videoId: '3n1DQrUXP4k?si=RGfblDU-TsfjDvr9',
-        title: 'Campanhas',
-        firstDescription: "Trouxemos uma voz poderosa e envolvente para a campanha 'Liquida Tudo AnaShopping'.",
-        secondDescription: "Com a expertise em locução e produção vocal, nossa voz destacou as ofertas com clareza e entusiasmo, capturando a atenção dos consumidores e impulsionando as vendas."
-    },
-    {
-        videoId: 'your-video-id-2',
-        title: 'Campanha 2',
-        firstDescription: "Trouxemos uma voz poderosa e envolvente para a campanha 'Liquida Tudo AnaShopping'.",
-        secondDescription: "Com a expertise em locução e produção vocal, nossa voz destacou as ofertas com clareza e entusiasmo, capturando a atenção dos consumidores e impulsionando as vendas."
-    },
-];
+import campaigns from '../../jsons/campaigns.json';
 
 const SectionCampaign = () => (
     <section className="sectionCampaign">
