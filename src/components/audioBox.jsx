@@ -1,30 +1,7 @@
 import React, { useState } from 'react';
 import { FaPlay, FaDownload } from 'react-icons/fa';
 import ReactPlayer from 'react-player';
-import demoPrincipal from '../assets/audios/demoPrincipal.mp3';
-
-const audioData = [
-    {
-        name: "Demo Principal",
-        url: demoPrincipal
-    },
-    {
-        name: "Demo Demonstrativo de Política",
-        url: "/path/to/demo-politica.mp3"
-    },
-    {
-        name: "Demo Propaganda para rádio",
-        url: "/path/to/demo-radio.mp3"
-    },
-    {
-        name: "Demo propagandas para televisão",
-        url: "/path/to/demo-televisao.mp3"
-    },
-    {
-        name: "Demo escutas telefônicas",
-        url: "/path/to/demo-escutas.mp3"
-    }
-];
+import audioData from '../jsons/audio.json';
 
 const AudioBox = () => {
     const [currentAudioUrl, setCurrentAudioUrl] = useState("");

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Demo Principal",
+        "url": "demoPrincipal"
+    },
+    {
+        "name": "Demo Demonstrativo de Política",
+        "url": "/path/to/demo-politica.mp3"
+    },
+    {
+        "name": "Demo Propaganda para rádio",
+        "url": "/path/to/demo-radio.mp3"
+    },
+    {
+        "name": "Demo propagandas para televisão",
+        "url": "/path/to/demo-televisao.mp3"
+    },
+    {
+        "name": "Demo escutas telefônicas",
+        "url": "/path/to/demo-escutas.mp3"
+    }
+]
