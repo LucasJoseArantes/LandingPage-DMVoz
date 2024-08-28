@@ -19,7 +19,7 @@ function App() {
                 <Header />
                 <SectionOne />    
             </div>
-            <SectionCampaign />
+                <SectionCampaign />
             <div className='image-container imageCostumer'>
                 <SectionCustomer />
             </div>
