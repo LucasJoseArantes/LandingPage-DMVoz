@@ -16,9 +16,10 @@ const SectionUs = () => {
 
     return (
         <section className='sectionUs'>
+            <div className="containerUs">
             <div>
                 <h2>Sobre nós</h2>
-                <h3>Denys é a voz e a alma da DMVoz! Com vasta experiência no mercado publicitário, atua como locutor, produtor e diretor, oferecendo serviços de alta qualidade diretamente de seu Home Studio. Com um compromisso inabalável com a excelência, Denys busca sempre entregar projetos que não apenas atendem, mas superam as expectativas dos clientes.</h3>
+                <p>Denys é a voz e a alma da DMVoz! Com vasta experiência no mercado publicitário, atua como locutor, produtor e diretor, oferecendo serviços de alta qualidade diretamente de seu Home Studio.</p>
             </div>
             <div>
                 <h4>Missão </h4>
@@ -28,6 +29,8 @@ const SectionUs = () => {
                 <h4>Visão</h4>
                 <p>Ser reconhecido como uma referência no mercado publicitário, destacando-se pela qualidade, inovação e comprometimento em todos os projetos. Almejamos expandir nosso alcance, consolidando parcerias duradouras e inspirando confiança em todos os segmentos em que atuamos.</p>
             </div>
+            </div>
+            
             <Pictures 
                 mainPath={imagesJson.mainPath}
                 side1Path={imagesJson.side1Path}
