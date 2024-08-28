@@ -8,7 +8,7 @@ import SectionContact from './components/sectionContact';
 import SectionCustomer from './components/sectionCustomer';
 import SectionAudio from './components/sectionAudio';
 import SectionUs from './components/sectionUs';
-import SectionCampaign from './components/sectionCampaign';
+import SectionCampaign from './components/sectionCampaign/sectionCampaign';
 import Whatsapp from './components/whatsAppIcon';
 
 
@@ -19,7 +19,7 @@ function App() {
                 <Header />
                 <SectionOne />    
             </div>
-            <SectionCampaign />
+                <SectionCampaign />
             <div className='image-container imageCostumer'>
                 <SectionCustomer />
             </div>
