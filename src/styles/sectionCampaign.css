@@ -1,11 +1,5 @@
 .sectionCampaign {
-    padding: 2rem;
-}
-
-.sectionCampaign_div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 2px solid blue;
 }
 
 .sectionCampaign__content {
@@ -13,8 +7,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin: 50px 0px;
-    max-width: 1200px;
+    border: 2px solid green;
+    padding: auto;
 }
 
 .sectionCampaign__video {
@@ -48,7 +42,9 @@
     margin-top: 1.5rem;
 }
 
-.slick-prev:before, .slick-next:before {
+.swiper-button-next,
+.swiper-button-prev {
     color: black;
-    font-size: 2rem;
+    transform: translateY(-50%);
 }
+

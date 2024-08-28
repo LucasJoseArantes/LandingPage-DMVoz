@@ -1,43 +1,42 @@
 import React from 'react';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import Button from '../button';
 import CampaignSlide from './campaignSlide';
 
-
-const SectionCampaign = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        adaptiveHeight: true
-    };
-
-    return (
-        <section className='sectionCampaign'>
-            <Slider {...settings}>
-                {/* Primeira Sessão */}
+const SectionCampaign = () => (
+    <section className="sectionCampaign">
+        <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+            style={{ maxWidth: '1200px'}}
+        >
+            <SwiperSlide>
                 <CampaignSlide 
                     videoId="your-video-id" 
-                    title="Campanha"
-                    firstDescription={`
-                        Trouxemos uma voz poderosa e envolvente para a campanha "Liquida Tudo AnaShopping".
-                    `}
-                    secondDescription={`
-                        Com a expertise em locução e produção vocal, nossa voz destacou as ofertas com clareza e 
-                        entusiasmo, capturando a atenção dos consumidores e impulsionando as vendas.
-                    `}
+                    title="Campanha 1"
+                    firstDescription="Trouxemos uma voz poderosa e envolvente para a campanha 'Liquida Tudo AnaShopping'."
+                    secondDescription="Com a expertise em locução e produção vocal, nossa voz destacou as ofertas com clareza e entusiasmo, capturando a atenção dos consumidores e impulsionando as vendas."
                 />
-
-                {/* Adicione mais slides conforme necessário */}
-            </Slider>
-            <Button text="Estou Interessado" nextSection=".sectionCustomer"/>
-        </section>
-    );
-};
+            </SwiperSlide>
+            <SwiperSlide>
+                <CampaignSlide 
+                    videoId="your-video-id" 
+                    title="Campanha 2"
+                    firstDescription="Trouxemos uma voz poderosa e envolvente para a campanha 'Liquida Tudo AnaShopping'."
+                    secondDescription="Com a expertise em locução e produção vocal, nossa voz destacou as ofertas com clareza e entusiasmo, capturando a atenção dos consumidores e impulsionando as vendas."
+                />
+            </SwiperSlide>
+        </Swiper>
+        <div className="sectionCampaign__button">
+            <Button text="Estou Interessado" nextSection=".sectionCustomer" />
+        </div>
+    </section>
+);
 
 export default SectionCampaign;
