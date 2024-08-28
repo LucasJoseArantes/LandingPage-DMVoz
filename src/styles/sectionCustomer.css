@@ -1,3 +1,120 @@
-.imageCostumer{
+.imageCostumer {
     background-image: url('../assets/images/sectionCostumer/costumerBgd.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionCustomer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mySwiper {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px; /* Ajuste conforme necessário */
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative; /* Necessário para o posicionamento absoluto do logo */
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 40px; /* Aumentado para criar mais espaço entre o testemunho e o container */
+    font-style: italic;
+    color: #333;
+}
+
+.testimonial-footer {
+    background: #252525; /* Fundo cinza escuro */
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    overflow: visible; /* Permite que o conteúdo saia do container */
+    padding-top: 40px; /* Ajustado para garantir que a imagem não sobreponha o testemunho */
+}
+
+.testimonial-logo {
+    width: 80px; /* Ajuste conforme necessário */
+    height: 80px; /* Ajuste conforme necessário */
+    object-fit: contain;
+    position: absolute;
+    top: -40px; /* Posiciona a metade da imagem fora do container */
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%; /* Opcional: Torna a imagem circular */
+}
+
+.testimonial-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* Cor do texto branco */
+    margin: 0; /* Remover margens adicionais */
+}
+
+.testimonial-position {
+    font-size: 14px;
+    color: #ddd; /* Cor do texto mais claro */
+    margin: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #000 !important;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #333;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000; /* Cor das setas */
+    width: 40px; /* Largura das setas */
+    height: 40px; /* Altura das setas */
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com opacidade */
+    border-radius: 50%; /* Tornar as setas circulares */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10; /* Garante que as setas fiquem acima do conteúdo */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px; /* Tamanho dos ícones das setas */
+}
+
+.swiper-button-next {
+    right: 10px; /* Distância da borda direita */
+}
+
+.swiper-button-prev {
+    left: 10px; /* Distância da borda esquerda */
 }
