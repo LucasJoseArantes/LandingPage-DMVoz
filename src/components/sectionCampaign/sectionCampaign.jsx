@@ -9,8 +9,8 @@ import CampaignSlide from './campaignSlide';
 
 const campaigns = [
     {
-        videoId: 'your-video-id-1',
-        title: 'Campanha 1',
+        videoId: '3n1DQrUXP4k?si=RGfblDU-TsfjDvr9',
+        title: 'Campanhas',
         firstDescription: "Trouxemos uma voz poderosa e envolvente para a campanha 'Liquida Tudo AnaShopping'.",
         secondDescription: "Com a expertise em locução e produção vocal, nossa voz destacou as ofertas com clareza e entusiasmo, capturando a atenção dos consumidores e impulsionando as vendas."
     },
