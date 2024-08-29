@@ -16,7 +16,6 @@ function App() {
     return (
         <div className='mainContainer'>
             <div className='image-container imageOne'>
-                <Header />
                 <SectionOne />    
             </div>
                 <SectionCampaign />
