@@ -15,7 +15,7 @@ const SectionFAQ = () => {
     };
 
     return (
-        <section className="faqSection">
+        <section className="faqSection" id="faqSection">
             <TitleSubtitle title="Perguntas Frequentes" subtitle="Respostas para as dúvidas mais comuns sobre nossos serviços"/>
             <div className="faqList">
                 {faqs.map((faq, index) => (

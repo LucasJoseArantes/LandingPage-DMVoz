@@ -10,7 +10,7 @@ const SectionOne = () => {
                 <h1>Transforme suas <b>ideias</b> em realidade com a <b>nossa voz</b></h1>
                 <div className='sound-image image-effect'></div>
             </div>
-            <Button text='Conheça Nosso Trabalho' />
+            <Button text='Conheça Nosso Trabalho' nextSection=".sectionCampaign" />
             <p>Locução profissional para eventos, rádio, televisão e muito mais...</p>
         </section>
     );

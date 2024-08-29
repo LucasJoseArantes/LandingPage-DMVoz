@@ -25,7 +25,7 @@ const TestimonialCard = ({ name, testimonial, logo }) => {
 
 const Customer = () => {
   return (
-    <section className="sectionImage sectionCustomer">
+    <section className="sectionImage sectionCustomer" id="sectionCustomer">
       <TitleSubtitle
         title="Depoimentos"
         subtitle="Saiba quem são nossos parceiros, e o que têm a dizer sobre nós"
@@ -47,7 +47,7 @@ const Customer = () => {
           ))}
         </Swiper>
       </div>
-      <Button text="Estou Interessado" />
+      <Button text="Estou Interessado" nextSection=".faqSection" />
     </section>
   );
 };

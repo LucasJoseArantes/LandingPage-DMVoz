@@ -9,7 +9,7 @@ import CampaignSlide from './campaignSlide';
 import campaigns from '../../jsons/campaigns.json';
 
 const SectionCampaign = () => (
-    <section className="sectionCampaign">
+    <section className="sectionCampaign" id="sectionCampaign">
         <Swiper
             spaceBetween={50}
             slidesPerView={1}
@@ -31,7 +31,7 @@ const SectionCampaign = () => (
             ))}
         </Swiper>
         <div className="sectionCampaign__button">
-            <Button text="Estou Interessado" nextSection=".sectionCustomer" />
+            <Button text="Estou Interessado" nextSection=".sectionAudio" />
         </div>
     </section>
 );

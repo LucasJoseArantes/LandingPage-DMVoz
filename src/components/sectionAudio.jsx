@@ -9,7 +9,7 @@ const SectionAudio = () => {
         <section className='sectionImage sectionAudio'>
             <TitleSubtitle title="Especialidades" subtitle="Confira algum de nossos trabalhos mais recentes" />
             <AudioBox />
-            <Button text="Estou Interessado" nextSection=".faqSection"/>
+            <Button text="Estou Interessado" nextSection=".sectionUs"/>
         </section>
     );
 };

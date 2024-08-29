@@ -34,7 +34,7 @@ const SectionContact = () => {
     };
 
     return (
-        <section className="sectionContact">
+        <section className="sectionContact" id="contact">
             <div className='contactContent'>
                 <div className='contactTitle'>
                     <h2>Fale Conosco</h2>
@@ -87,7 +87,7 @@ const SectionContact = () => {
                             onChange={handleChange}
                         ></textarea>
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" >Enviar</button>
                 </form>
             </div>
         </section>

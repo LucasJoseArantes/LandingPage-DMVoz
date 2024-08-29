@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/header.css';
 
 const Header = () => {
+    
     return (
         <header>
             <div>
@@ -9,9 +10,10 @@ const Header = () => {
             </div>
             <nav className='navbar'>
                 <ul>
-                    <li><a href='#about'>Sobre nós</a></li>
-                    <li><a href='#partners'>Nossos Parceiros</a></li>
-                    <li><a href='#faq'>FAQ</a></li>
+                    <li><a href='#sectionCampaign'>Campanhas</a></li>
+                    <li><a href='#sectionUs'>Sobre nós</a></li>
+                    <li><a href='#sectionCustomer'>Nossos Parceiros</a></li>
+                    <li><a href='#faqSection'>FAQ</a></li>
                     <li><a href='#contact'>Fale Conosco</a></li>
                 </ul>
             </nav>

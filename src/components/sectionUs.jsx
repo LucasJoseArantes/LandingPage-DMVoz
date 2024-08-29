@@ -9,7 +9,7 @@ const SectionUs = () => {
     console.log(picturesUs);
   
   return (
-    <section className="sectionUs">
+    <section className="sectionUs" id="sectionUs">
       <div className="usMainContainer">
         <div className="containerUs">
           <div>
@@ -52,7 +52,7 @@ const SectionUs = () => {
         />
       </div>
 
-      <Button text="Estou Interessado" nextSection=".sectionAudio" />
+      <Button text="Estou Interessado" nextSection=".sectionCustomer" />
     </section>
   );
 };
