@@ -17,6 +17,7 @@ footer {
 .logo {
     margin: auto;
     margin-right: 100%;
+    border: 2px solid red;
 }	
 
 hr{

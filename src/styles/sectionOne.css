@@ -1,13 +1,14 @@
 .imageOne{
-    background-image: url('../assets/images/sectionOne/section1bdgEXTENDED.png');
+    background-image:  linear-gradient(rgba(0, 17, 255, 0.058), rgba(0, 0, 0, 0.595)), url('../assets/images/sectionOne/section1bdgEXTENDED.png');
 }
 
 .sectionOne{
-    width: 1400px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left
+    
 }
 
 .image-effect {
@@ -51,11 +52,8 @@
 
 
 .sectionOne p {
-    font-size: 20px;
-    margin: auto;
-    padding: 8px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.553);
+    width:800px;
+    font-weight: 700;
+    font-size: 1.5em;
 } 
 

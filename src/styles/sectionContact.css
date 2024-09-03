@@ -1,7 +1,10 @@
-/* .sectionContact {
-    background: url('/src/assets/images/sectionContact/contactBdg.png') no-repeat center center;
-    background-size: cover;
-} */
+.sectionContact{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
 
 .imageContact {
     background: url('/src/assets/images/sectionContact/contactBdg.png') no-repeat center center;
@@ -36,18 +39,10 @@
 button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
     font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin-top: 2px ;
 }
 
-button[type="submit"]:hover {
-    background-color: #555;
-}
 
 .contactForm, .contactTitle, .contactContent{
     margin: auto;

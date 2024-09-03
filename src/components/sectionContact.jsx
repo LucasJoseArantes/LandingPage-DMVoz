@@ -87,7 +87,7 @@ const SectionContact = () => {
                             onChange={handleChange}
                         ></textarea>
                     </div>
-                    <button type="submit" >Enviar</button>
+                    <button type="submit" className='button' >Enviar</button>
                 </form>
             </div>
         </section>
