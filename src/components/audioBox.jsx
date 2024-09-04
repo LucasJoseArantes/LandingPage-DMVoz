@@ -15,9 +15,7 @@ const AudioBox = () => {
             <ReactPlayer
                 url={currentAudioUrl}
                 playing={currentAudioUrl !== ""}
-                controls={true}
-                width="100%"
-                height="50px"
+                controls={true} 
             />
             {audioData.map((audio, index) => (
                 <div key={index} className="audioItem">

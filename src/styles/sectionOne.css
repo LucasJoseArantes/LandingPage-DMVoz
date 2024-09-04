@@ -1,3 +1,53 @@
+@media (max-width: 768px) {
+
+    @keyframes colorChange {
+        0% {
+            color: #ffffff; /* Cor inicial */
+        }
+        25% {
+            color: #FF4500; /* Segunda cor */
+        }
+        50% {
+            color: #690F69;; /* Terceira cor */
+        }
+        75% {
+            color: #FF4500; /* Segunda cor */
+        }
+        100% {
+            color: #ffffff; /* Volta à cor inicial */
+        }
+    }
+
+    .mainTitle b{
+        animation: colorChange 5s infinite; /* Duração de 5 segundos, looping infinito */
+
+    }
+
+    .mainTitle h1{
+        font-size: 3rem!important;
+        width: 100% !important;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sectionOne p{
+        width: 100% !important;
+        font-size: 1rem!important;
+        text-align: center;
+    }
+
+    .image-effect {
+        position: absolute;
+    }
+
+    .lamp-image, .sound-image{
+        width: 0px!important;
+        left: 0 !important;
+    }
+
+    
+}
+
 .imageOne{
     background-image:  linear-gradient(rgba(0, 17, 255, 0.058), rgba(0, 0, 0, 0.595)), url('../assets/images/sectionOne/section1bdgEXTENDED.png');
 }

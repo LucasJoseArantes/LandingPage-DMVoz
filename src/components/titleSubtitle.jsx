@@ -2,8 +2,8 @@ import React from 'react';
 
 const TitleSubtitle = (props) => {
     return (
-        <div>
-            <h2>{props.title}</h2>
+        <div className='containerTitle'>
+            <h2 className='sectionTitle'>{props.title}</h2>
             <p className='sectionSubtitle'>{props.subtitle}</p>
         </div>
     );

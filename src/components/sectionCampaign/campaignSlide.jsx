@@ -14,7 +14,7 @@ const CampaignSlide = ({ videoId, title, firstDescription, secondDescription }) 
             />
         </div>
         <div className="sectionCampaign__text">
-            <h2>{title}</h2>
+            <h2 className='sectionTitle'>{title}</h2>
             <p>{firstDescription}</p>
             <p>{secondDescription}</p>
         </div>

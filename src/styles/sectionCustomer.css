@@ -1,3 +1,14 @@
+@media (max-width: 768px) {
+    .sectionCustomer .testimonial-text {
+       font-size: 1rem ;
+    }
+
+    .sectionCustomer .testimonial-card {
+        width: 100px;
+        height: 350px;
+    }
+}
+
 .imageCostumer {
     background-image:linear-gradient(rgba(0, 238, 255, 0.079), rgba(0, 0, 0, 0.704)), url('../assets/images/sectionCostumer/costumerBgd.png');
     background-size: cover;

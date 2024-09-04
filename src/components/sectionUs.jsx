@@ -13,7 +13,7 @@ const SectionUs = () => {
       <div className="usMainContainer">
         <div className="containerUs">
           <div>
-            <h2>Sobre nós</h2>
+            <h2 className='sectionTitle'>Sobre nós</h2>
             <p>
               Denys é a voz e a alma da DMVoz! Com vasta experiência no mercado
               publicitário, atua como locutor, produtor e diretor, oferecendo

@@ -31,8 +31,8 @@ function App() {
             <div className='image-container imageContact'>
                 <SectionContact />
             </div>
-            <Footer />
             <Whatsapp />
+            <Footer />
         </div>
     );
 }

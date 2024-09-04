@@ -37,7 +37,7 @@ const SectionContact = () => {
         <section className="sectionContact" id="contact">
             <div className='contactContent'>
                 <div className='contactTitle'>
-                    <h2>Fale Conosco</h2>
+                    <h2 className='sectionTitle'>Fale Conosco</h2>
                     <p className='sectionSubtitle'>Agora nós queremos ouvir a sua voz. Deixe sua mensagem e entraremos em contato!</p>
                 </div>
                 

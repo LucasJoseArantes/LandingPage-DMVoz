@@ -1,12 +1,31 @@
+@media (max-width: 768px) {
+    .faqSection .faqQuestion, .faqSection .faqAnswer{
+        width: 300px;
+        font-size: 1rem ;
+    }
+
+    .faqSection .faqAnswer{
+        font-size: 0.7rem
+    }
+
+    .faqList{
+        padding: 0px;
+        margin-top: -20px;
+    }
+
+}
+
 .faqSection{
     padding: 20px 0px;
+    max-height: 100%;
 }
 .faqSection h2 {
     color: black;
 }
 
 .faqList{
-    margin: auto;
+    padding: 10px;
+    
 }
 
 .faqQuestion {
@@ -25,6 +44,7 @@
     font-size: 1.5em;
     letter-spacing: -0.03em;
     color: #ffffff;
+    
 }
 
 .faqQuestion:hover {
