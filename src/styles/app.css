@@ -2,8 +2,6 @@
 
 @media (max-width: 768px) {
 
-    .mainContainer{
-    }
     
     .sectionOne, .faqSection, .sectionContact, .sectionCustomer, .sectionAudio, .sectionUs, .sectionCampaign , .image-container{
             height: auto;
@@ -50,6 +48,7 @@
     padding: 0;
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
+    
 }
 
 .mainContainer {
@@ -70,7 +69,9 @@
     align-self: end;
     align-self: center;
     text-align: center;
+    
 }
+
 
 section h2{
     font-size: 3rem;
@@ -123,3 +124,12 @@ b:hover{
     transition: 0.25s;
     scale: 0.99;
 }
+
+/* Exemplo de como pode estar o arquivo app.css */
+.styles-module_avatar__afcc4 img{
+    width: 100%;
+    background-image: url(https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/images/pictures/mainPic.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

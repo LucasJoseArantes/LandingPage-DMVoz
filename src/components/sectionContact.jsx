@@ -18,10 +18,10 @@ const SectionContact = () => {
         e.preventDefault();
 
         emailjs.send(
-            'service_ha4s6ic', // Substitua pelo seu Service ID
-            'template_x9jx449', // Substitua pelo seu Template ID
+            'service_agozd7d', // Substitua pelo seu Service ID
+            'template_a92fu6q', // Substitua pelo seu Template ID
             formState,
-            '6GbgiB6k-TsYk0pt_' // Substitua pelo seu User ID
+            'jSaoNqbRw7O1Gz-78' // Substitua pelo seu User ID
         )
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);

@@ -5,6 +5,7 @@ header {
     top: 0;
     display: flex;
     align-items: center;
+    z-index: 10; /* Ensure the header is on top of other elements */
 }
 
 header img {
@@ -14,27 +15,28 @@ header img {
 }
 
 .navbar {
-    color: #fff;
     display: flex;
     justify-content: flex-end;
     padding: 30px;
     margin: auto;
     margin-right: 10px;
     align-self: end;
-    
+    transition: max-height 0.3s ease-in-out;
 }
 
 .navbar ul {
-    list-style: none;    
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-  
+
 .navbar li {
     border-bottom: 3px solid transparent;
     display: inline-block;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
-  
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: white;
 }
@@ -42,4 +44,58 @@ header img {
 .navbar a:hover {
     color: #ffffff8e;
     transition: 0.1s;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+        position: absolute;
+        top: 90px; /* Adjust based on header height */
+        right: 0;
+        background-color: rgba(0, 0, 0, 0);
+        max-height: 0px;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: max-height 0.5s ease-in-out;
+        width: fit-content
+    }
+
+    .navbar.active {
+        max-height: 300px; /* Adjust max-height to display all items */
+        background-color: rgba(14, 14, 14, 0.802);
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
 }

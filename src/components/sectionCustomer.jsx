@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import TitleSubtitle from "./titleSubtitle";
 import "../styles/sectionCustomer.css";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,14 +8,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Button from "./button";
 import quotesLogo from "../assets/images/sectionCostumer/double-quotes.png";
-import { Navigation, Autoplay } from "swiper/modules";  // Adicione o módulo Autoplay
+import { Navigation, Autoplay } from "swiper/modules"; // Adicione o módulo Autoplay
 import tesimonaljson from "../jsons/testimonials.json";
+
 
 const TestimonialCard = ({ name, testimonial, logo }) => {
   return (
     <div className="testimonial-card">
-      <img src={quotesLogo} alt="quotes" className="testimonial-quote" />
-      <p className="testimonial-text">"{testimonial}"</p>
+      <p className="testimonial-text">{testimonial}</p>
       <div className="testimonial-footer">
         <img src={logo} alt={name} className="testimonial-logo" />
         <h3 className="testimonial-name">{name}</h3>
@@ -24,6 +25,37 @@ const TestimonialCard = ({ name, testimonial, logo }) => {
 };
 
 const Customer = () => {
+  const [slidesPerView, setSlideperView] = useState(4);
+
+  useEffect(() => {
+    
+    function handleResize() {
+      console.log(window.innerWidth);
+      if (window.innerWidth < 820) {
+        setSlideperView(1);
+      }
+      else if (window.innerWidth < 1024) {
+        setSlideperView(1);
+      }
+      else if (window.innerWidth < 1440) {
+        setSlideperView(3);
+      }
+      else {
+        setSlideperView(4);
+      }
+    }
+  
+    handleResize();
+  
+    window.addEventListener("resize", handleResize);
+  
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  
+  
+  }, []);
+
   return (
     <section className="sectionImage sectionCustomer" id="sectionCustomer">
       <TitleSubtitle
@@ -34,13 +66,13 @@ const Customer = () => {
         <Swiper
           className="mySwiper"
           spaceBetween={35}
-          slidesPerView={4}
+          slidesPerView={slidesPerView}
           navigation={{}}
-          modules={[Navigation, Autoplay]}  // Inclua o módulo Autoplay
-          style={{ padding: '0px 35px' }}
+          modules={[Navigation, Autoplay]} // Inclua o módulo Autoplay
+          style={{ padding: "0px 35px" }}
           loop={true}
           autoplay={{
-            delay: 1500, 
+            delay: 1500,
             disableOnInteraction: false,
           }}
         >

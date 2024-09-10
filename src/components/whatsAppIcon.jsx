@@ -5,14 +5,14 @@ import '../styles/app.css';
 export default function Whatsapp() {
   return (
     <FloatingWhatsApp
-      phoneNumber='+5534996474732'
+      phoneNumber='+55349812-5957'
+      avatar='https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/800px-HD_transparent_picture.png?20200606142532'
       accountName='DMBot'
       chatMessage='Olá, como posso te ajudar?'
-      statusMessage=''
+      statusMessage='Online'
       placeholder='Digite a sua mensagem'
       allowClickAway={true}
       allowEsc={true}
-      className="floating-whatsapp" // Adicione a classe personalizada
     />
   );
 }

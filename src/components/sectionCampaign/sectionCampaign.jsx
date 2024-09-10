@@ -11,13 +11,13 @@ import campaigns from '../../jsons/campaigns.json';
 const SectionCampaign = () => (
     <section className="sectionCampaign" id="sectionCampaign">
         <Swiper
-            spaceBetween={50}
+            spaceBetween={10}
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             modules={[Navigation]}
-            style={{ maxWidth: '1200px'}}
+            style={{ width: '100%'}}
         >
             {campaigns.map((campaign, index) => (
                 <SwiperSlide key={index}>

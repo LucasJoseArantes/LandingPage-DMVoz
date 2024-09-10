@@ -3,11 +3,22 @@ import { FaWhatsapp, FaYoutube, FaInstagram } from "react-icons/fa";
 import "../styles/footer.css"; 
 
 const Footer = () => {
+
+  const handleClick = () => {
+      const header = document.querySelector('.navbar');
+      if (header) {
+          header.scrollIntoView({ behavior: 'smooth' });
+      } else {
+          console.error("Element with ID 'navbar' not found.");
+      }
+  };
+
+
   return (
     <footer>
       <div className="footerContent">
         <div>
-            <img className="logo" src="https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/images/logos/whiteFooter.png?raw=true" alt="Logo DMVoz" />
+            <img className="logo" src="https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/images/logos/whiteFooter.png?raw=true" alt="Logo DMVoz" onClick={handleClick}/>
             <hr /> 
             <p>Copyright © 2000 - 2024 DMVoz Produções. Todos os direitos reservados</p>
         </div>

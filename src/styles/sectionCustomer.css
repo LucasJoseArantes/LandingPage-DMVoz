@@ -1,12 +1,12 @@
 @media (max-width: 768px) {
-    .sectionCustomer .testimonial-text {
+    .sectionCustomer{ 
        font-size: 1rem ;
     }
-
-    .sectionCustomer .testimonial-card {
-        width: 100px;
-        height: 350px;
+    
+    .testimonial-text {
+        font-size: 0.5rem ;
     }
+
 }
 
 .imageCostumer {
@@ -38,7 +38,7 @@
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 300px; /* Ajuste conforme necessário */
+    max-width: 400px; /* Ajuste conforme necessário */
     height: auto;
     box-sizing: border-box;
     text-align: center;
@@ -47,12 +47,12 @@
 
 .testimonial-text {
     font-weight: 500;
-    width: 80%;
+    display: flex;
     height: 250px;
     font-size: 16px;
     text-align: left;
     margin: 20px auto;
-    padding: 20px;
+    padding: 0px 20px;
     font-style: italic;
     color: #000000;
     flex-grow: 1; /* Faz o texto crescer para ocupar o espaço disponível */
@@ -64,17 +64,8 @@
     padding: 15px;
     position: relative;
     overflow: visible; /* Permite que o conteúdo saia do container */
-    padding-top: 40px; /* Ajustado para garantir que a imagem não sobreponha o testemunho */
-}
-
-.testimonial-quote {
-    width: 15px;
-    height: 15px;
-    font-weight: bold;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: #000; /* Cor do texto da citação */
+    padding: 40px 0px; /* Ajustado para garantir que a imagem não sobreponha o testemunho */
+    height: 10px;
 }
 
 .testimonial-logo {

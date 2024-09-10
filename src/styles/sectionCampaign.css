@@ -6,6 +6,12 @@
         padding: 60px 0px;
     }
 
+    .sectionCampaign{
+        max-width: 100%;
+                
+        }
+        
+    
     .sectionCampaign__text {
         text-align: center !important;
     }
@@ -16,6 +22,8 @@
         left: 50%;
         transform: translateX(-50%);
         font-size: 3rem;
+        
+
     }
 
     .sectionCampaign__content .sectionCampaign__text p {
@@ -34,12 +42,14 @@
     }
 
     .swiper-button-next {
-        right: 430px !important;
+        top: 30px;
+        right: 4px !important;
     }
     
     .swiper-button-prev {
-        left: 400px !important;
-    }
+        top: 30px;
+        left: 4px !important;
+    } 
 }
 
 
