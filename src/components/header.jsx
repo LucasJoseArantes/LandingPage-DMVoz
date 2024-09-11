@@ -20,7 +20,7 @@ const Header = () => {
     return (
         <header>
             <div className='logo-container'>
-                <img src='https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/images/logos/colorHeader.png?raw=true' alt='DM Voz Produções' />
+                <img src='https://github.com/LucasJoseArantes/LandingPage-DMVoz/blob/main/src/assets/images/logos/whiteFooter.png?raw=true' alt='DM Voz Produções' />
             </div>
             <div className='hamburger' onClick={toggleMenu}>
                 <span className='bar'></span>
@@ -30,6 +30,7 @@ const Header = () => {
             <nav className={`navbar ${isOpen ? 'active' : ''}`}>
                 <ul>
                     <li><a onClick={() => handleClick('#sectionCampaign')}>Campanhas</a></li>
+                    <li><a onClick={() => handleClick('.sectionAudio')}>Especialidades</a></li>
                     <li><a onClick={() => handleClick('#sectionUs')}>Sobre nós</a></li>
                     <li><a onClick={() => handleClick('#sectionCustomer')}>Nossos Parceiros</a></li>
                     <li><a onClick={() => handleClick('#faqSection')}>FAQ</a></li>

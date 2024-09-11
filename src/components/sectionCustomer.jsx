@@ -72,7 +72,7 @@ const Customer = () => {
           style={{ padding: "0px 35px" }}
           loop={true}
           autoplay={{
-            delay: 1500,
+            delay: 2500,
             disableOnInteraction: false,
           }}
         >

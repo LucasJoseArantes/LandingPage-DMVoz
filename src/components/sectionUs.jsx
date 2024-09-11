@@ -27,8 +27,7 @@ const SectionUs = () => {
               que agreguem valor ao mercado publicitário. Com dedicação e
               profissionalismo, buscamos criar conteúdos que envolvam e impactem
               o público, ajudando nossos clientes a alcançarem seus objetivos de
-              comunicação. 1
-            </p>
+              comunicação.            </p>
           </div>
           <div>
             <h4>Visão</h4>

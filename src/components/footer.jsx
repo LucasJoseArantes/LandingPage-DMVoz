@@ -24,13 +24,13 @@ const Footer = () => {
         </div>
     
         <div className="socialIcons">
-          <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/+553498125957" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp size={30} />
           </a>
-          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@amaral5446" target="_blank" rel="noopener noreferrer">
             <FaYoutube size={30} />
           </a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/denysdmvoz/" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={30} />
           </a>
         </div>

@@ -12,7 +12,15 @@ header img {
     padding: 20px;
     margin: 20px;
     justify-self: start;
+    width: 50%;
 }
+
+header img:hover {
+    cursor: pointer;
+    scale: 0.95;
+    transition: 0.5s;
+}
+
 
 .navbar {
     display: flex;
@@ -42,9 +50,18 @@ header img {
 }
 
 .navbar a:hover {
-    color: #ffffff8e;
-    transition: 0.1s;
+    color: #FA6C17!important;
+    border-bottom: 3px solid #FA6C17;    transition: 0.1s;
+    cursor: pointer;
 }
+
+.navbar a:active {
+    color: #333; /* Cor mais escura */
+    transform: scale(0.95); /* Encolher */
+    transition: transform 0.1s, color 0.1s; /* Transição suave */
+}
+
+    
 
 /* Hamburger Menu Styles */
 .hamburger {
@@ -97,5 +114,10 @@ header img {
 
     .hamburger {
         display: flex;
+    }
+
+    header img {
+        padding: 5px;
+        width: 60%;
     }
 }
