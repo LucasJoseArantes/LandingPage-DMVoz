@@ -7,6 +7,11 @@
         font-size: 0.5rem ;
     }
 
+
+    .mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    display: none;
+}
 }
 
 .imageCostumer {
