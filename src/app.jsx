@@ -10,6 +10,7 @@ import SectionAudio from './components/sectionAudio';
 import SectionUs from './components/sectionUs';
 import SectionCampaign from './components/sectionCampaign/sectionCampaign';
 import Whatsapp from './components/whatsAppIcon';
+import ToTopBtn from './components/toTopBtn';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                 <SectionContact />
             </div>
             <Whatsapp />
+            <ToTopBtn />
             <Footer />
         </div>
     );
