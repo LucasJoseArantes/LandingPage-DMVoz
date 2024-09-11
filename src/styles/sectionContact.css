@@ -60,6 +60,7 @@
 .formGroup input,
 .formGroup textarea {
     width: 100%;
+    min-width: 300px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -115,11 +116,4 @@ button[type="submit"] {
     text-align: left;
     margin-bottom: 15px;
 
-}
-
-.messageForm {
-    min-width: 300px;
-    max-width: 480px;
-    max-height: 240px;
-    min-height: 100px;
 }
